@@ -1,0 +1,90 @@
+.fig{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
+    margin: 200px;
+    display: flex;
+}
+.t{
+    text-align: center;
+    font-size: 30px;
+    
+    
+
+
+}
+.fig figure{
+    flex: calc(30%);
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+.fig img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+.foot{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    background: #eca383;
+    
+
+
+}
+.b{
+    background-image: url(flag.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+@keyframes slidein{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+/*.fig img{
+    animation-name:slidein ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+    animation-direction: alternate;
+}
+.fig img:hover{
+    animation-play-state: running;
+}
+h4{
+    animation-name:slidein ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+    animation-direction: alternate;
+    
+
+    }
+h4:hover{
+    animation-play-state: running;
+}
+    */
+a1{
+    animation-name:slidein ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+    animation-direction: alternate;
+    
+
+    }
